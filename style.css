@@ -5,3 +5,34 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    padding: 16px 208px;
+}
+/* Navigation */
+#logo   {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+}
+.secondary, a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.welcome
